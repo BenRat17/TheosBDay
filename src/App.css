@@ -1,38 +1,56 @@
+
 .App {
+  background: rgb(236, 217, 4);
+  background: radial-gradient(circle, rgba(255, 234, 7, 0.758) 40%, rgba(48, 45, 45, 0.565) 150%, rgba(129, 123, 123, 0.948) 20%);
+  height: 100%;
   text-align: center;
+  font-family: 'Caprasimo';
+};
+
+.img__balloon {
+  width: auto;
+}
+ body {
+  background-image: url('https://mcdn.wallpapersafari.com/medium/59/60/snBKl4.jpg');
+  background-size:15rem;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-text {
+  font-size:700%;
+  font-weight: 400;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.p-text {
+  font-size: x-large;
+  margin-bottom: 1rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.checkerboard {
+  width:100%;
+  height: 80px;
+  background-color: #fff;
+  background-image: linear-gradient(
+      -50deg,
+      #000 25%,
+      transparent 25%,
+      transparent 75%,
+      #000 75%,
+      #000
+    ),
+    linear-gradient(
+      50deg,
+      #000 25%,
+      transparent 25%,
+      transparent 75%,
+      #000 75%,
+      #000
+    );
+  background-size: 40px 40px;
+  background-repeat: repeat;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  width: 37%;
+  height: 45px;
+  margin: 1rem;
 }
