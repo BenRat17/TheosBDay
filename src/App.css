@@ -5,6 +5,7 @@
   height: 100%;
   text-align: center;
   font-family: 'Caprasimo';
+  overflow-x: hidden;
 };
 
 .img__balloon {
@@ -14,6 +15,7 @@
   background-image: url('https://mcdn.wallpapersafari.com/medium/59/60/snBKl4.jpg');
   background-size:15rem;
   height: 100%;
+
 }
 
 .header-text {
@@ -50,7 +52,7 @@
   background-repeat: repeat;
 }
 .button {
-  width: 37%;
+  width:fit-content;
   height: 45px;
   margin: 1rem;
 }

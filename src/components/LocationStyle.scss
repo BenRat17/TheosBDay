@@ -4,12 +4,28 @@
 }
 
 img {
-    height: 450px;
-    width: 600px;;
+    // height: fit-content;
+    // width: fit-content;
     padding: .5rem;
     border-radius: 15%;
 }
 
 .text-sm {
     font-size: x-large;
+}
+
+.img-loc {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    height:max-content;
+    width: 50%;;
+
+    // @media screen and (min-width: 1000px) {
+    //     height: max-content;
+    //     width: 40%;
+    // }
+}
+.img-map {
+    height: fit-content;
 }
